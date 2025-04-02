@@ -9,33 +9,6 @@ RESTful API to simulate simple banking operations.
 *	Internal transfer support (i.e. a customer may transfer funds from one account to another).
 
 
-## Getting Started
-
-1. Checkout the project from GitHub
-
-```
-git clone https://github.com/sbathina/BankApp
-
-```
-2. Enable Lombok support on your IDE
-
-Refer to the following link for instructions:
-
-```
-https://projectlombok.org/setup/eclipse
-
-```
-3. Open IDE of your choice and Import as existing maven project in your workspace
-
-```
-- Import existing maven project
-- Run mvn clean install
-- If using STS, Run As Spring Boot App
-
-```
-4. Default port for the api is 8989
-
-
 ### Prerequisites
 
 * Java 8
@@ -60,20 +33,11 @@ spring-security-test
 ```
 
 ## Swagger
-
-Please find the Rest API documentation in the below url
-
-```
 http://localhost:8989/bank-api/swagger-ui.html
 
 ```
 
 ## H2 In-Memory Database
-
-Make sure to use jdbc:h2:mem:testdb as your jdbc url. If you intend to you use custom database name, please
-define datasource properties in application.yml
-
-```
 http://localhost:8989/bank-api/h2-console/
 
 ```
@@ -84,8 +48,4 @@ http://localhost:8989/bank-api/h2-console/
 
 2. Browse to <project-root>/src/test/resources to find sample requests to add customer and accounts.
 
-
-## Authors
-
-* **Shyam Bathina**
 
